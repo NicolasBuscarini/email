@@ -1,1 +1,89 @@
 .env.local
+
+
+# ==========================================================
+# 🔧 Arquivos e pastas gerados pelo Python
+# ==========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ==========================================================
+# 🧱 PyInstaller build artifacts
+# ==========================================================
+build/
+dist/
+*.spec
+
+# ==========================================================
+# 🧩 Dependências e pacotes binários
+# ==========================================================
+*.egg
+*.egg-info/
+.eggs/
+wheels/
+*.pyd
+*.so
+*.dll
+*.dylib
+*.exe
+*.bin
+
+# ==========================================================
+# 🧠 IDEs e ferramentas de desenvolvimento
+# ==========================================================
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+# VS
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==========================================================
+# 🧪 Testes e relatórios
+# ==========================================================
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+junit.xml
+
+# ==========================================================
+# 🧰 Outras ferramentas opcionais
+# ==========================================================
+# MyPy / Type Checking
+.mypy_cache/
+.dmypy.json
+
+# Ruff / Flake8 / Pylint
+.ruff_cache/
+.pylint.d/
+
+# Bandit / Segurança
+.bandit
+
+# ==========================================================
+# 🧾 Documentação / Build estático
+# ==========================================================
+site/
+docs/_build/
